@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBeer } from "react-icons/fa";
+import { FaTrash, FaEdit } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -204,7 +204,7 @@ function App() {
                     className="modalSave"
                     onClick={editTaskId ? editTask : addTask}
                   >
-                    {editTaskId ? "Save" : "Add"}
+                       {editTaskId ? "Save" : "Add"}
                   </button>
                   <button className="modalCancel" onClick={closeModal}>
                     Cancel
