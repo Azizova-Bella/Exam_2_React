@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaTrash, FaEdit } from "react-icons/fa";
+import {  FaEdit, FaTrash } from "react-icons/fa";
 import "./App.css";
 
 function App() {
