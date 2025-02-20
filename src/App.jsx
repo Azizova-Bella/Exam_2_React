@@ -1,7 +1,5 @@
 import { useState } from "react";
 import {  FaEdit, FaTrash } from "react-icons/fa";
-import { FaBeer } from "react-icons/fa6";
-
 import "./App.css";
 
 function App() {
