@@ -234,10 +234,12 @@ span {
 
 .task .actions .delete {
   color: red;
+  font-size: 30px;
 }
 
 .task .actions .edit {
   color: #666;
+  font-size: 30px;
 }
 
 .doneCheckbox span {

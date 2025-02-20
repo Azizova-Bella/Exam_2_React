@@ -1,5 +1,4 @@
 import { useState } from "react";
-import {  FaEdit, FaTrash } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -153,13 +152,13 @@ function App() {
                     className="edit"
                     onClick={() => openEditModal(task.id)}
                   >
-                    <FaEdit />
+                   🖍
                   </button>
                   <button
                     className="delete"
                     onClick={() => deleteTask(task.id)}
                   >
-                    <FaTrash />
+                   🗑
                   </button>
                   <div className="doneCheckbox">
                     <input
